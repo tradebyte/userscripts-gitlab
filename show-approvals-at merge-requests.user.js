@@ -34,7 +34,7 @@
         jQuery.ajax({
             url : apiUrl,
             success : function(data){
-                let iconTarget = $mergeR.find('.title .controls');
+                let iconTarget = $mergeR.find('.controls');
                 iconTarget.append('<li style="max-height: 20px;overflow-y: hidden;"><div class="approvers-list" style="display:flex"></div></li>');
                 iconTarget = iconTarget.find('.approvers-list');
 
